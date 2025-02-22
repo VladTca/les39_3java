@@ -9,7 +9,7 @@ public class Main {
 
     private static void uniqStr(String string) {
 //        String[] words = string.split(",");
-        Set<String> setStr=new LinkedHashSet<>(Arrays.asList(string.split(",")));
+        Set<String> setStr = new LinkedHashSet<>(Arrays.asList(string.split(",")));
 //        for (int i = 0; i < words.length; i++) {
 //            setStr.add(words[i]);
 //        }
