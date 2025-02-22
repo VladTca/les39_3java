@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,7 +11,8 @@ public class Main {
 
     private static void uniqStr(String string) {
 //        String[] words = string.split(",");
-        Set<String> setStr = new LinkedHashSet<>(Arrays.asList(string.split(",")));
+        Set<String> setStr=new LinkedHashSet<>(Arrays.asList(string.split(",")));
+
 //        for (int i = 0; i < words.length; i++) {
 //            setStr.add(words[i]);
 //        }
